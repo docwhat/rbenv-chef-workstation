@@ -54,6 +54,15 @@ If you are having problems, try running `sanity-check.sh`:
 $ $SHELL "$(rbenv root)/plugins/rbenv-chef-workstation/sanity-check.sh"
 ```
 
+### Error running commands and errors talk about chefdk
+
+Make sure you have completely uninstalled chefdk:
+
+```sh
+# This removes old Gems and the rbenv-chefdk plugin.
+$ rm -rf ~/.chefdk "$(rbenv root)/plugins/rbenv-chefdk" "$(rbenv root)/versions/chefdk"
+```
+
 ## Frequently Asked Questions
 
 ### Hey, what happened to `gem`?
