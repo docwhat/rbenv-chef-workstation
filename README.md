@@ -10,21 +10,11 @@ Chef Workstation replaces ChefDK. If you want to use ChefDK instead, then use th
 
 ## Installation
 
-### From GitHub
-
 To install rbenv-chef-workstation, clone this repository into the `$(rbenv root)/plugins` directory.
 
 ```sh
 $ cd $(rbenv root)/plugins
 $ git clone <url>
-```
-
-### On macOS
-
-On macOS, you can use [`brew`](https://brew.sh/) to install:
-
-```sh
-brew install rbenv-chef-workstation
 ```
 
 **Warning:** If you've previously installed Chef Workstation, you will want to undo the changes recommended in the [Chef Workstation install instructions](https://docs.chef.io/install_dk.html#set-system-ruby) or in the Homebrew info gist. Otherwise `rbenv` or Chef Workstation will not work correctly.
