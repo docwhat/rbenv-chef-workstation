@@ -13,6 +13,7 @@ Chef Workstation replaces ChefDK. If you want to use ChefDK instead, then use th
 To install rbenv-chef-workstation, clone this repository into the `$(rbenv root)/plugins` directory.
 
 ```sh
+$ mkdir $(rbenv root)/plugins
 $ cd $(rbenv root)/plugins
 $ git clone <url>
 ```
